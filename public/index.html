@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Populate Exercise</title>
+    <style>
+      input {
+        display: block;
+        height: 36px;
+        width: 200px;
+        font-size: 24px;
+      }
+      textarea {
+        width: 200px;
+        height: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="/submit" method="post">
+    <h1>Hey Stud!</h1>
+    <h2>Enter a Workout!</h2>
+      <input type="text" name="exercise" placeholder="exercise">
+      <textarea type="text" name="reps" placeholder="How Many Reps"></textarea>
+
+      <input type="submit">
+      <a href="/exercise">See your workouts!</a>
+      <a href="/gym">See your workouts!</a>
+      <a href="/populateduser">See Your workouts!</a>
+    </form>
+  </body>
+</html>
